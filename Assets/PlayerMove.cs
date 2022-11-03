@@ -78,6 +78,8 @@ public class PlayerMove : MonoBehaviour
 
         if(maxHealth == 0){
             print("Acabou");
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             SceneManager.LoadScene(2);
             //Destroy(gameObject);
         }

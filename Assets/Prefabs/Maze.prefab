@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7260967319804393950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6735921742507385418}
+  - component: {fileID: 2817471668860753564}
+  m_Layer: 0
+  m_Name: Maze
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6735921742507385418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7260967319804393950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2817471668860753564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7260967319804393950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbc6fa15cfec5544bec9bc1739758dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellPrefab: {fileID: 1365519407396764156, guid: a5fefd8fdfad7604f97374884cd73974,
+    type: 3}
+  generationStepDelay: 0
+  tam:
+    x: 20
+    z: 20
+  passagePrefab: {fileID: 4117533353052338520, guid: c6136ea02695aa24680baea41503f9dd,
+    type: 3}
+  wallPrefabs:
+  - {fileID: 3728318123470934869, guid: 444abe43fa44c674699d6c61e7fc275a, type: 3}
+  - {fileID: 3728318123470934869, guid: 444abe43fa44c674699d6c61e7fc275a, type: 3}
+  - {fileID: 3728318123470934869, guid: 444abe43fa44c674699d6c61e7fc275a, type: 3}
+  - {fileID: 3728318123470934869, guid: 444abe43fa44c674699d6c61e7fc275a, type: 3}
+  - {fileID: 3728318123470934869, guid: 444abe43fa44c674699d6c61e7fc275a, type: 3}
+  - {fileID: 3728318123470934869, guid: 444abe43fa44c674699d6c61e7fc275a, type: 3}
+  - {fileID: 3728318123470934869, guid: 444abe43fa44c674699d6c61e7fc275a, type: 3}
+  - {fileID: 5077473288460629292, guid: ea8683151583e164198df80c66ec8f7f, type: 3}
+  - {fileID: 5268654516880226532, guid: 0302b7a772aa26349bb62a180eb69761, type: 3}
+  - {fileID: 5959792664964278587, guid: 3fd2002603b30bf4e9c502be69eee2ba, type: 3}
+  portaPrefab: {fileID: 6247503095617714302, guid: 1201c5e3b92408e4a90e580d51835931,
+    type: 3}
+  doorProb: 0

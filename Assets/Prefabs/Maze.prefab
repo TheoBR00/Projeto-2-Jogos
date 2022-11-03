@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellPrefab: {fileID: 1365519407396764156, guid: a5fefd8fdfad7604f97374884cd73974,
     type: 3}
-  generationStepDelay: 0
+  generationStepDelay: 0.001
   tam:
     x: 20
     z: 20

@@ -18,7 +18,7 @@ public class EnemyMove : MonoBehaviour
     {
         transform.LookAt(player);
 
-        transform.Translate(Vector3.forward*3*Time.deltaTime);
+        transform.Translate(Vector3.forward*1.5f*Time.deltaTime);
 
         
     }
